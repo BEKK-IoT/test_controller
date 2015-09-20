@@ -1,0 +1,17 @@
+{
+  "name": "controller",
+  "version": "0.0.1",
+  "description": "Example project for a controller",
+  "main": "app.js",
+  "scripts": {
+    "app": "babel-node app.js"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "devices-core": "bekk-iot/devices-core",
+    "keypress": "^0.2.1"
+  }
+}
