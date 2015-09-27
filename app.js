@@ -10,7 +10,7 @@ process.stdin.on('keypress', function (ch, key) {
 
   if (key && key.ctrl && key.name == 'c') {
       process.stdin.pause();
-      process.exit();
+      fire.unregister(fire.defaultConnection, () => process.exit(0));
   }
 
   if (key) {
